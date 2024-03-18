@@ -1,0 +1,117 @@
+.Mainfoot{
+    .footer{
+        @media only screen and (max-width: 396px) {
+            justify-content: flex-start;
+            padding-left: 10px;
+        }
+    background-color: #6FCFFF;
+    border-top:2px solid #064070;
+    display:flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    
+    .box1{
+        h2{
+            color: #064070;
+            margin:30px 0;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .boxnumber{
+            display: flex;
+            align-items: center;
+            color: #064070;
+            margin-bottom:10px ;
+            .number{
+                margin-left: 10px;
+                font-weight: 500;
+                font-size:16px;
+            }
+        }
+        .boxaddress{
+            display: flex;
+            align-items: center;
+            color: #064070;
+            .address{
+                margin-left: 10px;
+                font-weight: 500;
+                font-size:16px;
+            }
+        }
+    }
+    .box2{
+        h2{
+            color: #064070;
+            margin:30px 0;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .list{
+            list-style: none;
+        }
+        .listitem{
+            color: #064070;
+            margin-bottom: 4px;
+            font-weight: 500;
+            font-size:18px;
+            cursor: pointer;
+        }
+    }
+    .box3{
+        width: 20rem;
+        h2{
+            color: #064070;
+            margin-top:30px;
+            margin-bottom:10px;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .inp{
+                width: 30%;
+                height: 1.8rem;
+                width: 90%;
+                padding: 4px;
+                margin: 5px 0;
+                border-radius: 4px;
+                border: none;
+                font-weight: 400;
+                font-size: 12px;
+            }
+            .submit{
+                width: 92%;
+                height: 30px;
+                background-color:#064070 ;
+                padding:5px auto;
+                border-radius: 5px;
+                text-align: center;
+                margin: 10px 0;
+                padding-top: 6px;
+                color: white;
+                font-weight: 500;
+                cursor: pointer;
+                box-shadow: 6px 4px 19px 0px #064070;
+            }
+        }
+    }
+}
+    .bottom{
+        width: 100%;
+        height: 25px;
+        background-color: #064070;
+        text-align: center;
+        color: white;
+        padding: 2px 0;
+        font-weight: 400;
+    }
+}
+.loc{
+    height: 15px;
+    width: 15px;
+}

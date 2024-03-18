@@ -1,0 +1,408 @@
+// *{
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+//     font-family: "Poppins";
+// }
+// .aktu{
+//     // height: 800px;
+//     width: 90%;
+//     // background: pink;
+//     // margin-top: 112px;
+//     margin:112px auto 0;
+//     .headingdiv{
+//         display: flex;
+//         align-items: center;
+//         margin-top: 170px;
+//         margin-bottom: 40px;
+
+//         .heading{
+//             color: #007EBA;
+//             font-weight:800 ;
+//             line-height:60px ;
+//             font-size: 40px;
+
+//         }
+//         .line{
+//             margin: 0 0.7rem;
+//             width: 120px;
+//             height: 5px;
+//             border-radius: 3px;
+//             background-color:#007EBA;
+//             // @media only screen and (max-width: 1196px) {
+//             //     display: none;
+//             // }
+//         }
+//     }
+
+//     .box2{
+//         display: flex;
+//         align-items: center;
+//         background-color: #007EBA;
+//         border-radius: 5px;
+//         // width: 100%;
+//         height: 100px;
+//         // justify-content: space-between;
+//         @media only screen and (max-width: 1050px) {
+//             height:150px;
+
+//             // flex-wrap: wrap;
+//             // flex-direction: row;
+//             // align-items: center;
+           
+//         }
+//         @media only screen and (max-width: 596px) {
+//                 flex-wrap: wrap;
+//                 flex-direction: column;
+//                 height:200px;
+//                 align-items: center;
+//             }
+//         .dropdown{
+//             position: relative;
+//             margin: 0 35px;
+//             height: 44px;
+//             width: 32%;
+//             border-radius: 5px;
+//             background-color: white;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             padding: 0 30px;
+//             cursor: pointer;
+//             @media only screen and (max-width: 1050px) {
+//                 margin-bottom: 26px;
+//                 width: 43%;
+//                 }
+//                 @media only screen and (max-width: 596px) {
+//                     margin-top: 20px;
+//                     width: 70%;
+    
+//                 }
+//             .dropdownmenu{
+//               position: absolute;
+//               display: flex;
+//               flex-direction: column;
+//                 top: 46px;
+//                 background-color: white;
+//                 border: 1px solid black;
+//                 width: 100%;
+//                 height: 100px;
+//                 left: 0;
+//                 z-index: 1;
+                
+//                 li{
+//                     list-style: none;
+//                     font-size: 18px;
+//                     padding: 5px;
+//                 }
+                
+//             }
+//             .droptext{
+//                 font-weight: 400;
+//                 font-size: 20px;
+//                 line-height: 25px;
+//                 display: flex;
+//                 justify-content: space-between;
+//                 width: 100%;
+//                 align-items: center;
+//                 @media only screen and (max-width: 1000px) {
+//                     font-size: 16px;
+    
+//                 }
+                
+//             }
+//             .dropimage{
+//                 height: 15px;
+//                 width: 15px;
+//             }
+//         }
+//         .search{
+//             height: 50%;
+//             width: 43%;
+//             display: flex;
+//             // align-items: center;
+//             justify-content: space-between;
+//             @media only screen and (max-width: 1050px) {
+//                 flex-wrap: wrap;
+//                 width: 48%;
+//                 }
+//                 @media only screen and (max-width: 596px) {
+//                     width: 70%;
+//                 }
+
+//             .imgbox{
+//                 position: absolute;
+//                 padding-top: 13px;
+//                 padding-left: 25px;
+//                 .imgsearch2{
+//                     position: relative;
+//                     left: 0;
+//                     // top: 8px;
+    
+//                 }
+//             }
+//             .input{
+//                 height: 45px;
+//                 width: 95%;
+//                 background-color: white;
+//                 border: none;
+//                 border-radius: 5px;
+//                 margin-right: 10px;
+//                 padding-left: 56px;
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 @media only screen and (max-width: 596px) {
+//                     width: 100%;
+//                     margin-right: 0px;
+//                     margin-bottom: 10px;
+    
+//                 }
+//             }
+//         }
+//         .searchbtn{
+//             height:45%;
+//             // width: 14%;
+
+//             @media only screen and (max-width: 1050px) {
+//                 margin-top: 10px;
+//                 width: 100%;
+//                 display: flex;
+//                 justify-content: center;
+//                 }
+//         }
+//     }
+//     .cards{
+//         margin-top: 30px;
+//         display: flex;
+//         justify-content: space-between;
+//         gap: 2px;
+//         // align-items: center;
+//         width: 100%;
+//         // background-color: pink;
+//             flex-wrap: wrap;
+//         @media only screen and (max-width: 898px) {
+
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//             // margin-top: 10px;
+
+//         }
+//         .notfound{
+//             display: flex;
+//             // align-items: center;
+//             justify-content: center;
+//             height: 400px;
+//             width: 100%;
+//             font-weight: 800;
+//             font-size: 25px;
+//         }
+//     }
+// }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+.aktu{
+    // height: 800px;
+    width: 90%;
+    // background: pink;
+    // margin-top: 112px;
+    margin:112px auto 0;
+    .headingdiv{
+        display: flex;
+        align-items: center;
+        margin-top: 170px;
+        margin-bottom: 40px;
+
+        .heading{
+            color: #007EBA;
+            font-weight:800 ;
+            line-height:60px ;
+            font-size: 40px;
+
+        }
+        .line{
+            margin: 0 0.7rem;
+            width: 120px;
+            height: 5px;
+            border-radius: 3px;
+            background-color:#007EBA;
+            // @media only screen and (max-width: 1196px) {
+            //     display: none;
+            // }
+        }
+    }
+
+    .box2{
+        display: flex;
+        align-items: center;
+        background-color: #007EBA;
+        border-radius: 5px;
+        // width: 100%;
+        height: 100px;
+        // justify-content: space-between;
+        @media only screen and (max-width: 1050px) {
+            height:150px;
+
+            // flex-wrap: wrap;
+            // flex-direction: row;
+            // align-items: center;
+           
+        }
+        @media only screen and (max-width: 596px) {
+                flex-wrap: wrap;
+                flex-direction: column;
+                height:200px;
+                align-items: center;
+            }
+        .dropdown{
+            position: relative;
+            margin: 0 35px;
+            height: 44px;
+            width: 32%;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+            cursor: pointer;
+            @media only screen and (max-width: 1050px) {
+                margin-bottom: 26px;
+                width: 43%;
+                }
+                @media only screen and (max-width: 596px) {
+                    margin-top: 20px;
+                    width: 70%;
+    
+                }
+            .dropdownmenu{
+              position: absolute;
+              display: flex;
+              flex-direction: column;
+                top: 46px;
+                background-color: white;
+                border: 1px solid black;
+                width: 100%;
+                height: 100px;
+                left: 0;
+                z-index: 1;
+                
+                li{
+                    list-style: none;
+                    font-size: 18px;
+                    padding: 5px;
+                }
+                
+            }
+            .droptext{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: center;
+                @media only screen and (max-width: 1000px) {
+                    font-size: 16px;
+    
+                }
+                
+            }
+            .dropimage{
+                height: 15px;
+                width: 15px;
+            }
+        }
+        .search{
+            height: 50%;
+            width: 43%;
+            display: flex;
+            // align-items: center;
+            justify-content: space-between;
+            @media only screen and (max-width: 1050px) {
+                flex-wrap: wrap;
+                width: 48%;
+                }
+                @media only screen and (max-width: 596px) {
+                    width: 71%;
+                    height: 32%;
+                }
+
+            .imgbox{
+                position: absolute;
+                padding-top: 13px;
+                padding-left: 25px;
+                .imgsearch2{
+                    position: relative;
+                    left: 0;
+                    // top: 8px;
+    
+                }
+            }
+            .input{
+                height: 45px;
+                width: 95%;
+                background-color: white;
+                border: none;
+                border-radius: 5px;
+                margin-right: 10px;
+                padding-left: 56px;
+                font-weight: 400;
+                font-size: 16px;
+                @media only screen and (max-width: 596px) {
+                    width: 100%;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+    
+                }
+            }
+            .searchbtn{
+                height:45%;
+                width: 14%;
+
+                @media only screen and (max-width: 1050px) {
+                    margin-top: 10px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: end;
+                    }
+                    @media only screen and (max-width: 596px) {
+                        justify-content: center;
+                        
+                    }
+            }
+        }
+    }
+    .cards{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 2px;
+        // align-items: center;
+        width: 100%;
+        // background-color: pink;
+            flex-wrap: wrap;
+        @media only screen and (max-width: 898px) {
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // margin-top: 10px;
+
+        }
+        .notfound{
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            height: 400px;
+            width: 100%;
+            font-weight: 800;
+            font-size: 25px;
+        }
+    }
+}

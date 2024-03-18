@@ -1,0 +1,175 @@
+.body{
+    font-family: "Poppins";
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 111px;
+        margin-bottom: 3rem;
+      .img1{
+            width: 100%;
+            object-fit: cover;
+            min-height: 400px;
+        }
+        .container{
+            // width: 85%;
+            position: absolute;
+            left: 100px;
+            @media only screen and (max-width: 615px) {
+                left: 50px;
+                width: 80%;
+            }
+            .text{
+                width: 55%;
+                .textheading{
+                    color: #007EBA;
+                    font-weight: 800;
+                    font-size:2rem;
+                    line-height: 60px;
+                    @media only screen and (max-width: 885px) {
+                        font-size:1.5rem;
+                        line-height:25px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .textpara{
+                    color: #3C3C3C;
+                    font-weight: 500;
+                    font-size:20px;
+                    line-height: 27px;
+                    @media only screen and (max-width: 885px) {
+                        font-size:17px;
+                        line-height: 17px;
+                    }
+                }
+                .box1btn{
+                    display: flex;
+                    margin-top: 2rem;
+                    @media only screen and (max-width: 476px) {
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+    .box2{
+        display: flex;
+        width: 90%;
+        margin-bottom: 5rem;
+        @media only screen and (max-width: 1196px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgcontainer{
+            margin:0 60px;
+            
+        }
+        .imgbox2{
+            border: 2px solid #007EBA;
+            border-radius: 5px;   
+
+
+            @media only screen and (max-width: 640px) {
+                height: 200px;
+                width: 350px;
+                
+            }
+            @media only screen and (max-width: 475px) { 
+                height: 150px;
+                width: 250px;
+            }
+        }
+        .textcontainer{
+            .headingcont{
+                margin: 1.7rem 0;
+                display: flex;
+                align-items: center;
+                .heading{
+                    color:#007EBA ;
+                    font-size: 2rem;
+                    font-weight:700 ;
+                    @media only screen and (max-width: 640px) {
+                        font-size: 1.7rem;
+                    }
+                }
+                .line{
+                    margin: 0 0.7rem;
+                    width: 120px;
+                    height: 5px;
+                    border-radius: 3px;
+                    background-color:#007EBA;
+                    @media only screen and (max-width: 1196px) {
+                        display: none;
+                    }
+                }
+            }
+            .text2{
+                color: #3C3C3C;
+                font-weight: 400;
+                font-size: 1.2rem;
+                margin-bottom: 1.7rem;
+            }
+        }
+    }
+    .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        flex-wrap: wrap;
+        margin: 0 5%;
+        .heading{
+            display: flex;
+            align-items: center;
+            color: #007EBA;
+            font-weight: 700;
+            font-size:1.2rem ;
+            @media only screen and (max-width: 640px) {
+                font-size: 0.9rem;
+            }
+            .line3{
+                margin: 0 1rem;
+                width: 120px;
+                height: 5px;
+                border-radius: 3px;
+                background-color:#007EBA;
+                @media only screen and (max-width: 1196px) {
+                    display: none;
+                }
+                }
+        }
+        .images{
+            margin: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            @media only screen and (max-width: 1196px) {
+                flex-wrap: wrap;
+            }
+            .img{
+                margin-top:1rem;
+                margin-right: 1rem;
+                border-radius: 10px;
+                border: 2px solid #007EBA;
+                height: 275px;
+                @media only screen and (max-width: 475px) {
+                    height: 70%;
+                    width: 70%;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .button3{
+            margin-bottom: 1rem;
+        }
+    }
+}

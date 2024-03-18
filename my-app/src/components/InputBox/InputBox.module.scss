@@ -1,0 +1,74 @@
+*{
+    font-family: "Poppins";
+}
+.inputBox1{
+    display: flex;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border: none;
+    .icon{
+        position: absolute;
+        color: black;
+    }
+
+    .in1{
+        position: relative;
+        top:8px;
+        margin-left: 8px;
+        left:0;
+    }
+    
+    .in2{
+        height: 30px;
+        border-radius: 5px;
+        border: transparent; 
+        padding-left: 34px;
+        color: black;
+        font-size: 13px;
+        font-weight: 400;
+        width: 100%;
+    }
+}
+
+.inputBox2{
+    // background: pink;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 3px;
+    @media only screen and (max-width: 1050px) {
+        height: 68%;
+}
+//     @media only screen and (max-width: 596px) {
+//         height: 63%;
+// }
+    .icon{
+        position: absolute;
+        color: dimgray;
+    }
+
+    .in1{
+        position: relative;
+        top:13px;
+        margin-left: 8px;
+        left:0;
+    }
+    
+    .in2{
+        height: 85%;
+        border-radius: 5px;
+        border: transparent; 
+        padding-left: 34px;
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        @media only screen and (max-width: 1050px) {
+            height: 84%;
+    }
+    @media only screen and (max-width: 596px) {
+        height: 100%;
+}
+}}
